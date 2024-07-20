@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Abradol Car Hub</title>
+    <link rel="stylesheet" href="About us.CSS"> <!-- Ensure the filename is correct and case-sensitive -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Service.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content of the About Us page -->
+    <div class="background-image">
+        <main>
+            <h1>About Abradol Car Hub</h1>
+            <p>
+                Welcome to Abradol Car Hub, a leading name in the automotive industry. 
+                Established on 28th April 2024, we have been serving car enthusiasts and customers with top-notch services and products. 
+                Our team comprises over 50 dedicated employees across several departments, ensuring that each aspect of our business operates smoothly and efficiently. 
+                Abradol Car Hub is proud to be certified by International Certification on Small Automotive Industry, reflecting our commitment to quality and excellence in the automotive field. 
+                Join us on our journey as we continue to innovate and provide the best in automotive solutions.
+            </p>
+        </main>
+
+        <!-- Teams Showcase Section -->
+        <section class="teams-showcase">
+            <h2>Our Teams</h2>
+            <div class="teams-gallery">
+                <!-- Marketing Team Image -->
+                <div class="team">
+                    <img src="marketers (1).jpeg" alt="Marketing Team">
+                    <p>Marketing Team</p>
+                </div>
+                <!-- IT Department Image -->
+                <div class="team">
+                    <img src="IT team.jpeg" alt="IT Department">
+                    <p>IT Department</p>
+                </div>
+                <!-- Shipping Field Men Image -->
+                <div class="team">
+                    <img src="shipping.jpeg" alt="Shipping Field Men">
+                    <p>Shipping Field Men</p>
+                </div>
+                <!-- Project Manager Image -->
+                <div class="team">
+                    <img src="project mangers.jpeg" alt="Project Manager">
+                    <p>Project Manager</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+        var navList = document.getElementById('nav-list');
+        if (navList.classList.contains('show')) {
+            navList.classList.remove('show');
+        } else {
+            navList.classList.add('show');
+        }
+    });
+    </script>
+</body>
+</html>
